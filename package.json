@@ -1,0 +1,13 @@
+{
+  "name": "color-buttons-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app with color buttons",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
+
