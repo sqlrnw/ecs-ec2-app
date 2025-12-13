@@ -12,8 +12,8 @@ phases:
 
     commands:
       - echo Building the Docker image...
-      - docker build -t colorfulAPP .
-      - docker tag colorfulAPP:latest $REPOSITORY_URI:latest
+      - docker build -t colurfulapp .
+      - docker tag colurfulapp:latest $REPOSITORY_URI:latest
   post_build:
     commands:
       - echo Pushing the Docker image...
